@@ -4,34 +4,23 @@ Collection of Machine Learning / Deep Learning projects and FastAPI services dev
 
 ## Featured projects
 
-### 1) YouTube Resume API *(coming soon)*
-FastAPI service that takes a YouTube URL and returns transcription + structured summary.
-- Tech: Python, FastAPI, Docker
-- Repo: https://github.com/MatMacc/yt-resume-api
-
-### 2) Mushroom Edibility — Model Benchmark
-Classification benchmark on mushroom edibility using multiple models (XGBoost, Logistic Regression, Neural Network) and evaluation.
-- Tech: scikit-learn, XGBoost, TensorFlow/Keras
-- Repo: https://github.com/MatMacc/Mushrooms
-
-### 3) Abalone Deep Learning
-Deep Learning project on the Abalone dataset using TensorFlow/Keras.
-- Tech: TensorFlow/Keras, pandas, NumPy
-- Repo: https://github.com/MatMacc/Abalone
-
-### 4) Iris / Classification Exercises (KNN + model selection)
-Classification exercises on the Iris dataset including KNN, model selection and evaluation.
-- Tech: scikit-learn, pandas
-- Repo: https://github.com/MatMacc/classificazione
-
----
+| Project | Type | Main Tech | Metric (test) | Link |
+|---|---|---|---|---|
+| YouTube Resume API *(coming soon)* | API (NLP) | FastAPI, Docker | — | https://github.com/MatMacc/yt-resume-api |
+| Mushroom Edibility — Model Benchmark | Classification | XGBoost, scikit-learn, TensorFlow/Keras | *(to add)* | https://github.com/MatMacc/Mushrooms |
+| Abalone Deep Learning | Regression | TensorFlow/Keras, scikit-learn | R² ≈ 0.56 | https://github.com/MatMacc/Abalone |
+| Iris Classification Exercises | Classification | scikit-learn | *(to add)* | https://github.com/MatMacc/classificazione |
 
 ## APIs
 - Drinks API (FastAPI): https://github.com/MatMacc/esercizio_drinks
 
-## Roadmap (next uploads)
-- [ ] Titanic survival prediction
-- [ ] Job salary regression
-- [ ] Medical insurance cost prediction
-- [ ] Wine classification (collaboration)
+## Other projects (coming soon)
+- Titanic survival prediction (classification)
+- Job salary regression
+- Medical insurance cost prediction
+- Wine classification (collaboration)
+
+## Roadmap
+- [ ] Publish remaining local projects as separate repos (clean structure + README + requirements)
 - [ ] Re-add Docker setup to the API projects (Dockerfile + .dockerignore + run instructions)
+- [ ] Add metrics/results to each project README (and update the table above)
